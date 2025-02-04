@@ -1,0 +1,30 @@
+.movie-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #83bfff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .likebutons {
+    color: white;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  

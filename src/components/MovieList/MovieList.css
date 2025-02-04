@@ -1,0 +1,36 @@
+.movie-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .movie-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .watched {
+    font-weight: bold;
+    color: green;
+  }
+  
+  button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  .like-buttons button.active {
+    background-color: #e6ffe6;
+    color: white;
+  }
+  
+  .sigma {
+    height: 20px;
+    width: 20px;
+  }
